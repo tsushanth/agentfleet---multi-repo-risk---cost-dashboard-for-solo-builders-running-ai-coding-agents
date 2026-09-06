@@ -31,8 +31,9 @@ This creates two tiny local git repos under `fixtures/` that the demo scans:
 - **demo-repo-a** — has a commit that looks like an agent quietly added a
   deploy script containing a hardcoded AWS key, a hardcoded Stripe key, a
   `curl | bash` line, and a `chmod 777`.
-- **demo-repo-b** — has a clean init commit, a commit that bumps the
-  `left-pad` dependency in `package.json`, and a clean docs commit.
+- **demo-repo-b** — has an init commit that introduces `package.json`
+  (flagged as a dependency addition), a commit that bumps the `left-pad`
+  dependency (flagged as a dependency change), and a clean docs commit.
 
 (These repos are generated rather than committed to this repo, since git
 can't cleanly track one repo's full history nested inside another — it only
