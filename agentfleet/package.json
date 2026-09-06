@@ -1,0 +1,11 @@
+{
+  "name": "agentfleet",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local MVP: aggregate diffs across repos, flag agent-authored risk, roll up token/API spend.",
+  "main": "cli.js",
+  "scripts": {
+    "seed": "node fixtures/seed.js",
+    "test": "node --test test/*.test.js"
+  }
+}

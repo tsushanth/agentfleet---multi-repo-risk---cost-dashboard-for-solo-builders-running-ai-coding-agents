@@ -1,0 +1,6 @@
+{
+  "repos": [
+    { "name": "demo-repo-a", "path": "../fixtures/demo-repo-a" },
+    { "name": "demo-repo-b", "path": "../fixtures/demo-repo-b" }
+  ]
+}

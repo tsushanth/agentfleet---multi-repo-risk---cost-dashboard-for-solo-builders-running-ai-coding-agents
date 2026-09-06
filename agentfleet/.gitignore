@@ -1,0 +1,4 @@
+output/
+fixtures/demo-repo-a/
+fixtures/demo-repo-b/
+fixtures/.seed.lock
